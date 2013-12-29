@@ -1,17 +1,18 @@
 {
-  "name": "mekeso-server",
-  "version": "0.0.1",
-  "description": "Media Key Server for Mac book Pros",
-  "main": "server.js",
-  "dependencies": {
-    "NodObjC": "~0.0.15",
-    "ws": "~0.4.31"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "author": "",
-  "license": "BSD-2-Clause"
+    "name": "mekespo-server", 
+    "license": "BSD-2-Clause", 
+    "author": "", 
+    "version": "0.0.1", 
+    "dependencies": {
+        "NodObjC": "~0.0.15", 
+        "ws": "~0.4.31"
+    }, 
+    "scripts": {
+        "test": "",
+        "start": "node server.js"
+    }, 
+    "devDependencies": {}, 
+    "main": "server.js", 
+    "id": "jid1-ZLwphcb7a3OfRQ", 
+    "description": "Media Key Server for Mac book Pros"
 }

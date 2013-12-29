@@ -33,6 +33,12 @@ function mediaKeyPress(keyCode, keyState, keyRepeat){
   if (keyCode === $.NX_KEYTYPE_PLAY) {
     if(keyState === true)
       send('KEYTYPE_PLAY');
+  } else if (keyCode === $.NX_KEYTYPE_FAST) {
+    if(keyState === true)
+      send('KEYTYPE_NEXT');
+  } else if (keyCode === $.NX_KEYTYPE_REWIND) {
+    if(keyState === true)
+      send('KEYTYPE_PREV');
   }
 }
 
