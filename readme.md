@@ -4,7 +4,7 @@ I wanted to pause spotify running in firefox using my media keys and this is wha
 
 Server
 =======
-The server is an application that sends over the media key to the plugin via websockets. I couldnt figure out an easier way of doing this and believe me this was not easy too. (Note:I have never worked with ObjC/ Cocoa / OSC)
+The server is an application that sends over the media key to the plugin via websockets. I couldnt figure out an easier way of doing this and believe me this was not easy too. (Note:I have never worked with ObjC/ Cocoa / OSX Whatever)
 
 Plugin
 ======
@@ -13,3 +13,4 @@ After fighting with a raw firefox plugin for days, i ended up using the SDK (whi
 Feature Requests
 ================
 Frankly, I would like Pull Requests more than feature requests :D
+Or just create an issue \m/
