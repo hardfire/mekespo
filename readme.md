@@ -14,3 +14,11 @@ Feature Requests
 ================
 Frankly, I would like Pull Requests more than feature requests :D
 Or just create an issue \m/
+
+FAQ
+===
+
+* iTunes starts up everytime i use my media Keys
+ - this worked for me acidx.net/wordpress/2013/03/stop-itunes-from-launching-when-using-media-keys/
+
+*
