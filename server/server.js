@@ -1,5 +1,5 @@
 var WebSocketServer = require('ws').Server;
-var wss = new WebSocketServer({port: 54014});
+var wss = new WebSocketServer({port: 54014, host:'127.0.0.1'});
 
 //web sockets broadcast function
 wss.broadcast = function(data) {
