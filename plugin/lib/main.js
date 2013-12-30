@@ -15,11 +15,13 @@ var supported_options = [
 // vendors we support and the url pattern to match
 var supported_vendors = [
   { name : 'spotify',
-    url  : 'play.spotify.com' },
+    url  : '//play.spotify.com' },
   { name : 'saavn',
-    url  : 'saavn.com/play' },
+    url  : '//www.saavn.com/play' },
   { name : 'gaana',
-    url  : 'gaana.com' }
+    url  : '//gaana.com' },
+  { name : 'soundcloud',
+    url  : '//soundcloud.com'}
 ];
 
 // start the worker that connects to the ws server
