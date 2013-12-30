@@ -17,7 +17,9 @@ var supported_vendors = [
   { name : 'spotify',
     url  : 'play.spotify.com' },
   { name : 'saavn',
-    url  : 'saavn.com/play' }
+    url  : 'saavn.com/play' },
+  { name : 'gaana',
+    url  : 'gaana.com' }
 ];
 
 // start the worker that connects to the ws server
