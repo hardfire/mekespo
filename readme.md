@@ -3,6 +3,7 @@ I wanted to pause spotify (and more...) running in firefox using my media keys a
 Note: 
  * it supports next and previous too
  * it supports spotify, saavn, gaana and soundcloud
+
 # Server
 The server is an application that sends over the media key to the plugin via websockets. I couldnt figure out an easier way of doing this and believe me this was not easy too. (Note:I have never worked with ObjC/ Cocoa / OSX Whatever)
 
