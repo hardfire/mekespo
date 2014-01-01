@@ -1,6 +1,8 @@
 # What? Why? Waaa
-I wanted to pause spotify running in firefox using my media keys and this is what i have. It works and as of now it is just pause and play. Adding the rest is just a piece of cake, but why make a cake you dont want to eat :p .I'll add that soon :D
-
+I wanted to pause spotify (and more...) running in firefox using my media keys and this is what i have. It works and as of now it is just ~~pause and play~~. Adding the rest is just a piece of cake, but why make a cake you dont want to eat :p .I'll add that soon :D
+Note: 
+ * it supports next and previous too
+ * it supports spotify, saavn, gaana and soundcloud
 # Server
 The server is an application that sends over the media key to the plugin via websockets. I couldnt figure out an easier way of doing this and believe me this was not easy too. (Note:I have never worked with ObjC/ Cocoa / OSX Whatever)
 
