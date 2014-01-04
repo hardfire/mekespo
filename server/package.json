@@ -5,7 +5,8 @@
     "version": "0.0.1", 
     "dependencies": {
         "NodObjC": "~0.0.15", 
-        "ws": "~0.4.31"
+        "ws": "~0.4.31",
+        "x11": "~0.7.0"
     }, 
     "scripts": {
         "test": "",

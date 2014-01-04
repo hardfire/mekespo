@@ -12,9 +12,16 @@ wss.on("connection", function(ws) {
   console.log('incoming connection');
 });
 
+var platform = null;
+//run the listening process depending on the host machine
+if(process.platform === 'darwin')
+  platform = 'mac';
+else if(process.platform === 'linux')
+  platform = 'linux'
+
 //start the nodObjC process
 var cp = require('child_process');
-var n = cp.fork(__dirname + '/macMediaKey.js');
+var n = cp.fork(__dirname + '/' + platform+'MediaKey.js');
 
 n.on('message', function(m) {
   wss.broadcast(m);
