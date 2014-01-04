@@ -1,9 +1,9 @@
 {
   "name": "mekespo",
-  "title": "Media Key Awesomeness for Spotify",
+  "title": "Media Keys Awesomeness for Spotify",
   "id": "jid1-S53sstdWXaCA9w",
-  "description": "Media Keys Awesomeness for Spotify",
+  "description": "Media Key Awesomeness for Web Based Players (Spotify/Gaana/Saavn/SounCloud)",
   "author": "Avinash Kundaliya",
   "license": "MPL 2.0",
-  "version": "0.1"
+  "version": "0.1a"
 }
