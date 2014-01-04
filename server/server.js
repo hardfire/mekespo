@@ -13,11 +13,12 @@ wss.on("connection", function(ws) {
 });
 
 var platform = null;
+
 //run the listening process depending on the host machine
 if(process.platform === 'darwin')
-  platform = 'mac';
+  platform = 'mac'; // mac starts a ObjC Process
 else if(process.platform === 'linux')
-  platform = 'linux'
+  platform = 'linux' // linux starts a X11 Process
 
 //start the nodObjC process
 var cp = require('child_process');
