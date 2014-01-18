@@ -3,14 +3,14 @@ var wss = new WebSocketServer({port: 54014, host:'127.0.0.1'});
 
 //web sockets broadcast function
 wss.broadcast = function(data) {
-  console.log('doing a broadcast');
+  //console.log('doing a broadcast');
   for(var i in this.clients)
     this.clients[i].send(data);
 };
 
-wss.on("connection", function(ws) {
-  console.log('incoming connection');
-});
+//wss.on("connection", function(ws) {
+  //console.log('incoming connection');
+//});
 
 var platform = null;
 
@@ -18,7 +18,7 @@ var platform = null;
 if(process.platform === 'darwin')
   platform = 'mac'; // mac starts a ObjC Process
 else if(process.platform === 'linux')
-  platform = 'linux' // linux starts a X11 Process
+  platform = 'linux'; // linux starts a X11 Process
 
 //start the nodObjC process
 var cp = require('child_process');
